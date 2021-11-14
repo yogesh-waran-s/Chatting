@@ -8,7 +8,7 @@ machine for development and testing purposes.
    - install the node modules
 3. Open api folder 
    - Open command line folder of api
-   - Start the json server
+   - Start the json server(refer below for how to start json server)
 # How to Install
 Follow the following steps to get development environment running.
 - Open command line folder of  react-chatting-appication
