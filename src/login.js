@@ -328,9 +328,20 @@ class Login extends Component {
                                                             {this.state.nav}
                                                             <i className="text-danger">{this.state.errorlist.gendererror}</i>
                                                             <div className="col-lg-12 mb-1">
-                                                                <input type="password" placeholder="Password" className="form-control" name="password" onChange={this.pickValue} />
+                                                                <input type="password" placeholder="Password " className="form-control" name="password" onChange={this.pickValue} />
                                                                 <i className="text-danger">{this.state.errorlist.passworderror}</i>
                                                             </div>
+                                                                <details>
+                                                                    <summary>Password constraints</summary>
+                                                                    <ul>
+                                                                        <ol>
+                                                                            <li>Use Minimum 8 character</li>
+                                                                            <li>Use one upper case compulsary</li>
+                                                                            <li>use one numerical compulsary</li>
+                                                                            <li>use one special compulsary</li>
+                                                                        </ol>
+                                                                    </ul>
+                                                                </details>
                                                             <small className="s">By clicking Sign Up, you agree to our
                                                              <label className="text-info t"> Terms, Data Policy </label> and 
                                                              <label className="text-info t"> Cookie </label>
